@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web2</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ab9999;
+            color: #fff;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Texto central */
+        h1 {
+            font-size: 3rem;
+            color: #111011;
+            text-shadow: 0 0 10px #892993 0 0 20px #5a0d64;
+            animation: float 3s ease-in-out infinite;
+            text-align: center;
+        }
+
+        /* Efecto de flotación */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Efecto de parpadeo */
+        h1 span {
+            animation: blink 1.5s infinite alternate;
+        }
+
+        @keyframes blink {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0.6;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1><span>WEB 2 EN SERVIDOR APACHE</span></h1>
+</body>
+</html>

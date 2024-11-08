@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/shared_content":{"guestpath":"/var/www/shared_content","hostpath":"C:/Users/yory/Desktop/Parcial2electiva/web_content","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/yory/Desktop/Parcial2electiva","disabled":false,"__vagrantfile":true}}}
